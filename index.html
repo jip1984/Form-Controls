@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My form exercise</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Product Pick</h1>
+  </header>
+  <main>
+    <div class="container">
+  <form>
+
+    <h2>Please Enter Your Details</h2>
+       <!-- change to your name-->
+        <!-- // name input  -->
+        <label for="name" class="form"></label>
+        <input id="name" type="text" name="name" minlength="3" maxlength="20" required placeholder="Name">
+     
+    <!-- email input  -->
+   
+        <label for="email" class="form"></label>
+        <input id="email" type="email" required placeholder="Email">
+     
+        <!-- t-shirt colour  -->
+       
+         <label for="colours" class="form"></label>
+         <select id="colours" name="colour">
+          <option  value="default" selected>--Select color--</option>
+          <option class="red" value="red">Red</option>
+          <option class="green" value="green">Green</option>
+          <option class="blue" value="blue">Blue</option>
+    
+        
+          <!-- pick a week  -->
+          <label for="date"></label>
+          <input aria-label="Search" type="date" id="date" name="date" min="2021-17-10" max="2021-14-10" required>
+      
+  </form>
+</div>
+<footer>
+  <h2>By Jon Prosser</h2>
+</footer>
+  </main>
+
+</body>
+
+</html>
